@@ -7,6 +7,7 @@
 
 .project-card__media {
   position: relative;
+  isolation: isolate;
 }
 
 .project-card__image {
@@ -14,6 +15,18 @@
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+}
+
+.project-card__overlay {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  pointer-events: none;
 }
 
 .project-card__content {
@@ -37,6 +50,7 @@
 
 .project-card__technologies {
   position: absolute;
+  z-index: 2;
   bottom: 10px;
   left: 12px;
   display: flex;

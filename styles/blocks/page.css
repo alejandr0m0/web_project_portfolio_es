@@ -3,6 +3,20 @@
   min-height: 100vh;
   margin: 0;
   background-color: #111111;
+  background-image:
+    radial-gradient(
+      circle 550px at calc(50% + 363px) 390px,
+      rgba(109, 109, 255, 0.25) 0%,
+      rgba(109, 109, 255, 0.12) 45%,
+      rgba(109, 109, 255, 0) 100%
+    ),
+    radial-gradient(
+      circle 550px at 50% calc(100% - 173px),
+      rgba(109, 109, 255, 0.25) 0%,
+      rgba(109, 109, 255, 0.12) 45%,
+      rgba(109, 109, 255, 0) 100%
+    );
+  background-repeat: no-repeat;
   color: #ffffff;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 18px;
