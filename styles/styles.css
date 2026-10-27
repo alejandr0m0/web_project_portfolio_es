@@ -1,9 +1,10 @@
 @import url("../fonts/fonts.css");
+@import url("normalize.css");
 
 body {
   font-family: "Open Sans", Arial, sans-serif;
 }
 
-.name {
+.profile__name {
   font-family: "Archivo Black", Arial, sans-serif;
 }
