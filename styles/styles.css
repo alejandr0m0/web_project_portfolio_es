@@ -1,0 +1,9 @@
+@import url("../fonts/fonts.css");
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.name {
+  font-family: "Archivo Black", Arial, sans-serif;
+}
