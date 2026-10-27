@@ -25,17 +25,207 @@
         width="150"
       />
       <ul class="profile__links">
-        <li>
+        <li class="profile__link-item">
           <a
+            class="profile__link"
             href="./assets/Alejandro_Marquez_Senior_QA_Engineer.pdf"
             target="_blank"
+            rel="noopener noreferrer"
             >Descargar CV</a
           >
         </li>
-        <li>
-          <a href="https://github.com/alejandr0m0" target="_blank">GitHub</a>
+        <li class="profile__link-item">
+          <a
+            class="profile__link"
+            href="https://github.com/alejandr0m0"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Enlace a GitHub</a
+          >
+        </li>
+        <li class="profile__link-item">
+          <a class="profile__link" href="#contact">Hablemos</a>
         </li>
       </ul>
     </header>
+    <main class="content">
+      <section class="skills" aria-labelledby="skills-title">
+        <h2 class="skills__title" id="skills-title">
+          Habilidades y herramientas
+        </h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <img class="skills__icon" src="./images/icons/html.svg" alt="HTML" />
+          </li>
+          <li class="skills__item">
+            <img class="skills__icon" src="./images/icons/css.svg" alt="CSS" />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/icons/javascript.svg"
+              alt="JavaScript"
+            />
+          </li>
+          <li class="skills__item">
+            <img class="skills__icon" src="./images/icons/git.svg" alt="Git" />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/icons/github.svg"
+              alt="GitHub"
+            />
+          </li>
+          <li class="skills__item">
+            <img
+              class="skills__icon"
+              src="./images/icons/openai.svg"
+              alt="OpenAI"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="projects" aria-labelledby="projects-title">
+        <h2 class="projects__title" id="projects-title">Proyectos destacados</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <article class="project-card" aria-labelledby="coffeeshop-title">
+              <div class="project-card__media">
+                <img
+                  class="project-card__image"
+                  src="./images/coffeeshop-preview.png"
+                  alt="Página de Triple Espresso con la presentación y una ilustración de la cafetería"
+                  width="590"
+                />
+                <div class="project-card__overlay" aria-hidden="true"></div>
+                <ul
+                  class="project-card__technologies"
+                  aria-label="Tecnologías utilizadas"
+                >
+                  <li class="project-card__technology">
+                    <img
+                      class="project-card__technology-icon"
+                      src="./images/icons/html.svg"
+                      alt="HTML"
+                    />
+                  </li>
+                  <li class="project-card__technology">
+                    <img
+                      class="project-card__technology-icon"
+                      src="./images/icons/css.svg"
+                      alt="CSS"
+                    />
+                  </li>
+                </ul>
+              </div>
+              <div class="project-card__content">
+                <h3 class="project-card__title" id="coffeeshop-title">
+                  Página web de una cafetería
+                </h3>
+                <p class="project-card__description">
+                  Sitio web para una cafetería de especialidad, desarrollado con
+                  HTML y CSS. Incluye presentación del negocio, horarios,
+                  navegación interna, formulario de reserva y sección de
+                  contacto. Utiliza clases BEM para organizar los estilos.
+                </p>
+                <ul class="project-card__links">
+                  <li class="project-card__link-item">
+                    <a
+                      class="project-card__link project-card__link--demo"
+                      href="https://alejandr0m0.github.io/web_project_coffeeshop_es/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="project-card__link-icon"
+                        src="./images/icons/external-link.svg"
+                        alt="Enlace externo"
+                      />
+                      Demo en vivo
+                    </a>
+                  </li>
+                  <li class="project-card__link-item">
+                    <a
+                      class="project-card__link"
+                      href="https://github.com/alejandr0m0/web_project_coffeeshop_es"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        class="project-card__link-icon"
+                        src="./images/icons/github-link.svg"
+                        alt="GitHub"
+                      />
+                      GitHub
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </li>
+          <li class="projects__item">
+            <article
+              class="project-card project-card--upcoming"
+              aria-labelledby="upcoming-title"
+            >
+              <div class="project-card__media">
+                <img
+                  class="project-card__image"
+                  src="./images/project-coming-soon.png"
+                  alt="Ilustración de una ventana de código sobre un fondo violeta"
+                  width="590"
+                />
+                <div class="project-card__overlay" aria-hidden="true"></div>
+              </div>
+              <div class="project-card__content">
+                <h3 class="project-card__title" id="upcoming-title">
+                  Próximo proyecto
+                </h3>
+                <p class="project-card__description">
+                  Próximamente compartiré aquí un nuevo proyecto.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="contact" id="contact" aria-labelledby="contact-title">
+      <h2 class="contact__title" id="contact-title">Contacto</h2>
+      <a class="contact__email" href="mailto:amarquez_ortega@outlook.com">
+        amarquez_ortega@outlook.com
+      </a>
+      <ul class="contact__social-links">
+        <li class="contact__social-item">
+          <a
+            class="contact__social-link"
+            href="https://www.linkedin.com/in/alejandromrqzo/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="contact__social-icon"
+              src="./images/icons/linkedin.svg"
+              alt="LinkedIn de Alejandro Márquez"
+            />
+          </a>
+        </li>
+        <li class="contact__social-item">
+          <a
+            class="contact__social-link"
+            href="https://x.com/alejandr0mo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              class="contact__social-icon"
+              src="./images/icons/x.svg"
+              alt="Perfil de Alejandro Márquez en X"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
