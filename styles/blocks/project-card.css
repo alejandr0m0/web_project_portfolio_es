@@ -98,6 +98,16 @@
   color: #6d6dff;
 }
 
+.project-card__link:hover {
+  opacity: 0.5;
+}
+
+.project-card__link:focus-visible {
+  outline: 2px solid #6d6dff;
+  outline-offset: 4px;
+  opacity: 1;
+}
+
 .project-card__link-icon {
   display: block;
   flex-shrink: 0;

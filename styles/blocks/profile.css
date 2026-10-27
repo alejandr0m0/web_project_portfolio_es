@@ -49,7 +49,23 @@
 }
 
 .profile__link {
+  display: inline-block;
+  padding-bottom: 10px;
+  background-image: linear-gradient(90deg, #4c1a97, #6d6dff);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100% 5px;
   color: inherit;
   font-weight: 600;
   text-decoration: none;
+}
+
+.profile__link:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.profile__link:focus-visible {
+  outline: 2px solid #6d6dff;
+  outline-offset: 4px;
+  color: inherit;
 }
