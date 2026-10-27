@@ -3,3 +3,7 @@
 
 @import url("./blocks/page.css");
 @import url("./blocks/profile.css");
+@import url("./blocks/skills.css");
+@import url("./blocks/projects.css");
+@import url("./blocks/project-card.css");
+@import url("./blocks/contact.css");

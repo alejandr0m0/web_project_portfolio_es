@@ -1,0 +1,13 @@
+.skills__title {
+  margin: 0;
+  font-family: "Archivo Black", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.skills__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
