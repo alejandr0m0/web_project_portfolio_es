@@ -1,3 +1,15 @@
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.profile__info {
+  flex: 1;
+  min-width: 0;
+}
+
 .profile__name {
   margin: 0;
   font-family: "Archivo Black", Arial, sans-serif;
@@ -6,17 +18,32 @@
   line-height: 1.1;
 }
 
+.profile__name-line {
+  display: block;
+}
+
 .profile__description {
-  margin: 0;
+  margin: 15px 0 0;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .profile__bio {
-  margin: 0;
+  margin: 30px 0 0;
+}
+
+.profile__image {
+  display: block;
+  flex-shrink: 0;
+  width: 387px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .profile__links {
-  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px 0 0;
   padding: 0;
   list-style: none;
 }
