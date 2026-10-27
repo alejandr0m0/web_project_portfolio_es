@@ -37,3 +37,25 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 767px) {
+  .skills {
+    padding: 60px 0;
+  }
+
+  .skills__title {
+    font-size: 28px;
+  }
+
+  .skills__list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-gap: calc((100% - 120px) / 3);
+    margin-top: 30px;
+  }
+
+  .skills__icon {
+    width: 30px;
+    height: auto;
+  }
+}

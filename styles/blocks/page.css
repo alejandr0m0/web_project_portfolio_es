@@ -45,3 +45,16 @@
     --page-profile-glow-y: 190px;
   }
 }
+
+@media (max-width: 767px) {
+  .page {
+    --page-profile-glow-x: 50%;
+    --page-profile-glow-y: 160px;
+
+    font-size: 16px;
+  }
+
+  .page__section {
+    width: calc(100% - 40px);
+  }
+}

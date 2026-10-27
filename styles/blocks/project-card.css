@@ -118,3 +118,40 @@
     min-height: 190px;
   }
 }
+
+@media (max-width: 767px) {
+  .project-card__content,
+  .project-card--upcoming .project-card__content {
+    min-height: 0;
+  }
+
+  .project-card__content {
+    padding: 20px;
+  }
+
+  .project-card__title {
+    font-size: 20px;
+  }
+
+  .project-card__description {
+    margin-top: 10px;
+  }
+
+  .project-card__technologies {
+    left: 10px;
+    gap: 5px;
+  }
+
+  .project-card__technology {
+    width: 20px;
+    height: 20px;
+  }
+
+  .project-card__technology-icon {
+    height: 20px;
+  }
+
+  .project-card__links {
+    padding-top: 20px;
+  }
+}

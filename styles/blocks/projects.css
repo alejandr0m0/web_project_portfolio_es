@@ -30,3 +30,13 @@
     flex: none;
   }
 }
+
+@media (max-width: 767px) {
+  .projects__title {
+    font-size: 28px;
+  }
+
+  .projects__list {
+    gap: 10px;
+  }
+}

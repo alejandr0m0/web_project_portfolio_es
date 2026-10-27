@@ -57,3 +57,19 @@
     padding-top: 80px;
   }
 }
+
+@media (max-width: 767px) {
+  .contact {
+    padding-top: 60px;
+  }
+
+  .contact__title {
+    font-size: 28px;
+  }
+
+  .contact__email {
+    max-width: 100%;
+    font-size: 18px;
+    overflow-wrap: anywhere;
+  }
+}
