@@ -112,3 +112,9 @@
   display: block;
   flex-shrink: 0;
 }
+
+@media (max-width: 1023px) {
+  .project-card--upcoming .project-card__content {
+    min-height: 190px;
+  }
+}

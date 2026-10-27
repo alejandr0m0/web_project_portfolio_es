@@ -51,3 +51,9 @@
 .contact__social-icon {
   display: block;
 }
+
+@media (max-width: 1023px) {
+  .contact {
+    padding-top: 80px;
+  }
+}

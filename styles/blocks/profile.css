@@ -69,3 +69,35 @@
   outline-offset: 4px;
   color: inherit;
 }
+
+@media (max-width: 1023px) {
+  .profile {
+    align-items: flex-start;
+  }
+
+  .profile__name {
+    font-size: 58px;
+  }
+
+  .profile__role,
+  .profile__stack {
+    display: block;
+  }
+
+  .profile__separator {
+    display: none;
+  }
+
+  .profile__bio {
+    margin-top: 20px;
+  }
+
+  .profile__image {
+    width: 216px;
+    height: 280px;
+  }
+
+  .profile__links {
+    margin-top: 20px;
+  }
+}

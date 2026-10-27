@@ -27,3 +27,13 @@
 .skills__icon {
   display: block;
 }
+
+@media (max-width: 1023px) {
+  .skills {
+    padding: 80px 0;
+  }
+
+  .skills__list {
+    margin-top: 40px;
+  }
+}

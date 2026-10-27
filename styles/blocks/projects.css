@@ -19,3 +19,14 @@
   flex: 1;
   min-width: 0;
 }
+
+@media (max-width: 1023px) {
+  .projects__list {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .projects__item {
+    flex: none;
+  }
+}

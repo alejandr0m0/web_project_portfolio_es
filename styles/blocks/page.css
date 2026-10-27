@@ -1,11 +1,14 @@
 .page {
+  --page-profile-glow-x: calc(50% + 363px);
+  --page-profile-glow-y: 390px;
+
   box-sizing: border-box;
   min-height: 100vh;
   margin: 0;
   background-color: #111111;
   background-image:
     radial-gradient(
-      circle 550px at calc(50% + 363px) 390px,
+      circle 550px at var(--page-profile-glow-x) var(--page-profile-glow-y),
       rgba(109, 109, 255, 0.25) 0%,
       rgba(109, 109, 255, 0.12) 45%,
       rgba(109, 109, 255, 0) 100%
@@ -34,4 +37,11 @@
   width: calc(100% - 80px);
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 1023px) {
+  .page {
+    --page-profile-glow-x: calc(50% + 194px);
+    --page-profile-glow-y: 190px;
+  }
 }
